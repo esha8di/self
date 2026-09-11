@@ -44,7 +44,7 @@ data class Book(
 fun main() {
 
     val books = listOf(
-        Book("Atomic Habits", 320),
+        Book("Esha", 320),
         Book("The Alchemist", 208),
         Book("Clean Code", 464),
         Book("Deep Work", 304),
