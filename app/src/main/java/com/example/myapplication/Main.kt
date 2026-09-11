@@ -87,3 +87,25 @@ fun main() {
         println("$letter: ${books.map { it.title }}")
     }
 }
+//
+//Longest three:
+//Lord of the Rings - 1178 pages
+//Dune - 688 pages
+//Harry Potter - 636 pages
+//
+//Total pages: 6220
+//
+//Grouped by first letter:
+//A: [Atomic Habits]
+//T: [The Alchemist, The Hobbit]
+//C: [Clean Code]
+//D: [Deep Work, Dune]
+//E: [Educated]
+//F: [Frankenstein]
+//H: [Harry Potter]
+//I: [Ikigai]
+//J: [JavaScript: The Good Parts]
+//K: [Kotlin in Action]
+//L: [Lord of the Rings]
+//M: [Meditations]
+//P: [Pride and Prejudice]
