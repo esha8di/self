@@ -87,7 +87,7 @@ fun main() {
         println("$letter: ${books.map { it.title }}")
     }
 }
-//
+
 //Longest three:
 //Lord of the Rings - 1178 pages
 //Dune - 688 pages
@@ -109,3 +109,29 @@ fun main() {
 //L: [Lord of the Rings]
 //M: [Meditations]
 //P: [Pride and Prejudice]
+
+
+fun getStatus(percentage: Int): String {
+    return when (percentage) {
+        in 0..24 -> "Not started"
+        in 25..49 -> "Started"
+        in 50..74 -> "Halfway"
+        in 75..99 -> "Almost complete"
+        100 -> "Completed"
+        else -> "Invalid percentage"
+    }
+}
+
+fun main(){
+    println(getStatus(0))
+    println(getStatus(25))
+    println(getStatus(50))
+    println(getStatus(80))
+    println(getStatus(100))
+
+}
+//Not started
+//Started
+//Halfway
+//Almost complete
+//Completed
